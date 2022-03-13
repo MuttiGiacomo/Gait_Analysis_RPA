@@ -60,3 +60,5 @@ Brief description of folders in the repository:
 - feat_labelled : folder containing the .txt files of the labelled data of the single
 		  acquisition experiments and the .txt file with all the labelled data
 		  put together to form the complete "supervised" dataset.
+
+- phase_img : images of the five detected gait phases to show on the plot.
