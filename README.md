@@ -9,13 +9,15 @@ The project aims at detecting the phases of the gait cycle of a person walking w
 
 First, the measurements are taken with the revised "ultra_simple" code provided in the rplidar sdk. <br/>
 Then we adjust the .txt files deriving from the dump of the measurements by adding the number of the acquisiton rounds. <br/>
-We analyse data and extract features that are meaningful of the gait phases that we want to detect: <br/>
+We analyse data and extract features that are meaningful of the gait phases that we want to detect.
+
 Phases (classes):
    1. double support left forward
    2. right swing phase
    3. double support right forward
    4. left swing phase
-   5. standing  <br/>
+   5. standing
+
 The computed features can be used, after manual labelling, for model training. <br/>
 For manual labelling we comapred the plots of the extracted features and the videos taken during the experiments. <br/>
 In the project we used the Matlab toolbox Classification Learner since it is easy and simple to use and it allows to export the C/C++ code underlying some models. <br/>
