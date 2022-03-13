@@ -1,9 +1,9 @@
 # Gait_Analysis_RPA
 
-Robotics Perception and Action/n
-Project on Gait Analysis and Gait Phases Detection with Laser Rangefinder/n
-Students: Giacomo Mutti, Mattia Sartori
-Supervisors: prof. Mariolino De Cecco, Luca Maule, Valentina Nardon
+Robotics Perception and Action <br/>
+Project on Gait Analysis and Gait Phases Detection with Laser Rangefinder <br/>
+Students: Giacomo Mutti, Mattia Sartori <br/>
+Supervisors: prof. Mariolino De Cecco, Luca Maule, Valentina Nardon <br/>
 
 The project aims at detecting the phases of the gait cycle of a person walking with the 
 support of an autonomous walker. The detection is possible by analyzing the measures taken 
@@ -11,23 +11,23 @@ with a laser rangefinder RPLidar A1 M8 positioned in front of the person at a he
 just under the knees.
 
 First, the measurements are taken with the revised "ultra_simple" code provided in the 
-rplidar sdk.
+rplidar sdk.  <br/>
 Then we adjust the .txt files deriving from the dump of the measurements by adding the 
-number of the acquisiton rounds.
+number of the acquisiton rounds.  <br/>
 We analyse data and extract features that are meaningful of the gait phases that we want 
-to detect:
-Phases (classes):
-   1 - double support left forward
-   2 - right swing phase
-   3 - double support right forward
-   4 - left swing phase
-   5 - standing
-The computed features can be used, after manual labelling, for model training. 
+to detect:  <br/>
+Phases (classes):  <br/>
+   1. double support left forward
+   2. right swing phase
+   3. double support right forward
+   4. left swing phase
+   5. standing
+The computed features can be used, after manual labelling, for model training.  <br/>
 For manual labelling we comapred the plots of the extracted features and the videos
-taken during the experiments.
+taken during the experiments.  <br/>
 In the project we used the Matlab toolbox Classification Learner since it is easy and 
-simple to use and it allows to export the C/C++ code underlying some models.
-At the end we used the model to make automatic detection.
+simple to use and it allows to export the C/C++ code underlying some models.  <br/>
+At the end we used the model to make automatic detection.  <br/>
 
 Brief description of files in the repository:
 
