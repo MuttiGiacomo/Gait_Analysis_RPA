@@ -1,7 +1,7 @@
 # Gait_Analysis_RPA
 
-Robotics Perception and Action
-Project on Gait Analysis and Gait Phases Detection with Laser Rangefinder
+Robotics Perception and Action/n
+Project on Gait Analysis and Gait Phases Detection with Laser Rangefinder/n
 Students: Giacomo Mutti, Mattia Sartori
 Supervisors: prof. Mariolino De Cecco, Luca Maule, Valentina Nardon
 
